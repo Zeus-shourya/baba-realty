@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 750" width="1000" height="750" role="img" aria-label="The Masterplan — plotted land development">
+  <defs>
+    <linearGradient id="mp-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#12263A"/><stop offset="1" stop-color="#0B1826"/>
+    </linearGradient>
+    <clipPath id="mp-clip"><rect width="1000" height="750"/></clipPath>
+  </defs>
+  <g clip-path="url(#mp-clip)">
+    <rect width="1000" height="750" fill="url(#mp-bg)"/>
+
+    <!-- survey grid -->
+    <g stroke="#C08A2E" stroke-opacity=".12" stroke-width="1">
+      <path d="M50 0v750M150 0v750M250 0v750M350 0v750M450 0v750M550 0v750M650 0v750M750 0v750M850 0v750M950 0v750"/>
+      <path d="M0 50h1000M0 150h1000M0 250h1000M0 350h1000M0 450h1000M0 550h1000M0 650h1000"/>
+    </g>
+
+    <!-- boundary -->
+    <path d="M90 110h820v530H90Z" fill="none" stroke="#C08A2E" stroke-width="3" stroke-dasharray="14 8"/>
+
+    <!-- spine road -->
+    <path d="M90 400h820" stroke="#F7F4EE" stroke-opacity=".22" stroke-width="26"/>
+    <path d="M90 400h820" stroke="#C08A2E" stroke-opacity=".7" stroke-width="2" stroke-dasharray="24 18"/>
+    <path d="M500 110v530" stroke="#F7F4EE" stroke-opacity=".14" stroke-width="18"/>
+
+    <!-- plots -->
+    <g fill="#1B3552" stroke="#C08A2E" stroke-opacity=".45">
+      <rect x="120" y="150" width="110" height="200"/><rect x="245" y="150" width="110" height="200"/>
+      <rect x="370" y="150" width="110" height="200"/><rect x="520" y="150" width="110" height="200"/>
+      <rect x="645" y="150" width="110" height="200"/><rect x="770" y="150" width="110" height="200"/>
+      <rect x="120" y="450" width="110" height="160"/><rect x="245" y="450" width="110" height="160"/>
+      <rect x="645" y="450" width="110" height="160"/><rect x="770" y="450" width="110" height="160"/>
+    </g>
+
+    <!-- central green -->
+    <rect x="370" y="450" width="260" height="160" rx="8" fill="#C08A2E" opacity=".16" stroke="#C08A2E" stroke-opacity=".55"/>
+    <g fill="none" stroke="#C08A2E" stroke-width="2.5" stroke-opacity=".8">
+      <path d="M440 610v-58a25 25 0 0 1 50 0v58"/>
+      <path d="M510 610v-58a25 25 0 0 1 50 0v58"/>
+    </g>
+
+    <!-- corner ticks -->
+    <g stroke="#C08A2E" stroke-width="3">
+      <path d="M90 110h34M90 110v34M910 110h-34M910 110v34M90 640h34M90 640v-34M910 640h-34M910 640v-34"/>
+    </g>
+  </g>
+</svg>

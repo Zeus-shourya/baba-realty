@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 750" width="1000" height="750" role="img" aria-label="The Courtyard — low-rise residences around a water court">
+  <defs>
+    <linearGradient id="cy-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1B3552"/><stop offset="1" stop-color="#12263A"/>
+    </linearGradient>
+    <linearGradient id="cy-water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#C08A2E" stop-opacity=".35"/><stop offset="1" stop-color="#1B3552" stop-opacity=".1"/>
+    </linearGradient>
+    <clipPath id="cy-clip"><rect width="1000" height="750"/></clipPath>
+  </defs>
+  <g clip-path="url(#cy-clip)">
+    <rect width="1000" height="750" fill="url(#cy-sky)"/>
+    <circle cx="180" cy="140" r="46" fill="#F7F4EE" opacity=".16"/>
+
+    <!-- left wing -->
+    <rect x="0" y="230" width="270" height="270" fill="#0E1F33" stroke="#C08A2E" stroke-opacity=".3"/>
+    <g fill="none" stroke="#C08A2E" stroke-width="2.5" stroke-opacity=".6">
+      <path d="M40 500V400a30 30 0 0 1 60 0v100"/>
+      <path d="M130 500V400a30 30 0 0 1 60 0v100"/>
+      <path d="M220 500V400a30 30 0 0 1 60 0v100"/>
+    </g>
+    <g fill="#C08A2E" opacity=".25"><rect x="30" y="270" width="220" height="8"/><rect x="30" y="320" width="220" height="8"/></g>
+
+    <!-- right wing -->
+    <rect x="730" y="230" width="270" height="270" fill="#0E1F33" stroke="#C08A2E" stroke-opacity=".3"/>
+    <g fill="none" stroke="#C08A2E" stroke-width="2.5" stroke-opacity=".6">
+      <path d="M720 500V400a30 30 0 0 1 60 0v100"/>
+      <path d="M810 500V400a30 30 0 0 1 60 0v100"/>
+      <path d="M900 500V400a30 30 0 0 1 60 0v100"/>
+    </g>
+    <g fill="#C08A2E" opacity=".25"><rect x="750" y="270" width="220" height="8"/><rect x="750" y="320" width="220" height="8"/></g>
+
+    <!-- centre block -->
+    <rect x="330" y="170" width="340" height="330" fill="#12263A" stroke="#C08A2E" stroke-opacity=".5"/>
+    <rect x="310" y="152" width="380" height="18" fill="#C08A2E" opacity=".85"/>
+    <g fill="none" stroke="#C08A2E" stroke-width="3">
+      <path d="M375 500V370a45 45 0 0 1 90 0v130"/>
+      <path d="M535 500V370a45 45 0 0 1 90 0v130"/>
+    </g>
+    <g fill="#0B1826" opacity=".6">
+      <path d="M375 500V370a45 45 0 0 1 90 0v130Z"/>
+      <path d="M535 500V370a45 45 0 0 1 90 0v130Z"/>
+    </g>
+    <g fill="#F7F4EE" opacity=".13">
+      <rect x="360" y="200" width="70" height="46"/><rect x="465" y="200" width="70" height="46"/><rect x="570" y="200" width="70" height="46"/>
+      <rect x="360" y="270" width="70" height="46"/><rect x="465" y="270" width="70" height="46"/><rect x="570" y="270" width="70" height="46"/>
+    </g>
+
+    <!-- plot line + water court -->
+    <rect x="0" y="500" width="1000" height="8" fill="#C08A2E"/>
+    <rect x="0" y="508" width="1000" height="242" fill="#0B1826"/>
+    <rect x="250" y="545" width="500" height="150" rx="6" fill="url(#cy-water)" stroke="#C08A2E" stroke-opacity=".5"/>
+    <g stroke="#F7F4EE" stroke-opacity=".18" stroke-width="2">
+      <path d="M300 590h400M300 620h400M300 650h400"/>
+    </g>
+  </g>
+</svg>

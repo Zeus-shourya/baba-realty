@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 750" width="1000" height="750" role="img" aria-label="The Row — independent floors">
+  <defs>
+    <linearGradient id="rw-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0E1F33"/><stop offset="1" stop-color="#1B3552"/>
+    </linearGradient>
+    <clipPath id="rw-clip"><rect width="1000" height="750"/></clipPath>
+  </defs>
+  <g clip-path="url(#rw-clip)">
+    <rect width="1000" height="750" fill="url(#rw-sky)"/>
+    <g fill="#C08A2E" opacity=".1"><circle cx="500" cy="120" r="180"/></g>
+
+    <g id="rw-unit">
+      <rect x="0" y="220" width="200" height="380" fill="#12263A" stroke="#C08A2E" stroke-opacity=".45"/>
+      <rect x="-12" y="205" width="224" height="15" fill="#C08A2E" opacity=".8"/>
+      <g fill="#C08A2E" opacity=".45">
+        <rect x="0" y="300" width="200" height="5"/><rect x="0" y="390" width="200" height="5"/><rect x="0" y="480" width="200" height="5"/>
+      </g>
+      <g fill="#F7F4EE" opacity=".15">
+        <rect x="22" y="245" width="70" height="46"/><rect x="110" y="245" width="70" height="46"/>
+        <rect x="22" y="335" width="70" height="46"/><rect x="110" y="335" width="70" height="46"/>
+        <rect x="22" y="425" width="70" height="46"/><rect x="110" y="425" width="70" height="46"/>
+      </g>
+      <path d="M78 600v-62a22 22 0 0 1 44 0v62" fill="#0B1826" stroke="#C08A2E" stroke-width="3"/>
+    </g>
+    <use href="#rw-unit" x="215"/>
+    <use href="#rw-unit" x="430"/>
+    <use href="#rw-unit" x="645"/>
+    <use href="#rw-unit" x="860" opacity=".55"/>
+
+    <rect x="0" y="600" width="1000" height="8" fill="#C08A2E"/>
+    <rect x="0" y="608" width="1000" height="142" fill="#0B1826"/>
+    <g stroke="#F7F4EE" stroke-opacity=".08" stroke-width="1">
+      <path d="M0 660h1000M0 706h1000"/>
+      <path d="M120 608v142M335 608v142M550 608v142M765 608v142"/>
+    </g>
+  </g>
+</svg>

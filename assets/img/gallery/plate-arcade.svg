@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 750" width="1000" height="750" role="img" aria-label="The Arcade — arcaded residential facade">
+  <defs>
+    <linearGradient id="ar-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0B1826"/><stop offset="1" stop-color="#1B3552"/>
+    </linearGradient>
+    <linearGradient id="ar-glow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#C08A2E" stop-opacity=".28"/><stop offset="1" stop-color="#C08A2E" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="ar-clip"><rect width="1000" height="750"/></clipPath>
+  </defs>
+  <g clip-path="url(#ar-clip)">
+    <rect width="1000" height="750" fill="url(#ar-sky)"/>
+    <circle cx="760" cy="180" r="230" fill="url(#ar-glow)"/>
+    <circle cx="760" cy="180" r="52" fill="#C08A2E" opacity=".22"/>
+
+    <!-- upper storey band -->
+    <rect x="120" y="150" width="760" height="120" fill="#12263A" stroke="#C08A2E" stroke-opacity=".45"/>
+    <g fill="none" stroke="#C08A2E" stroke-opacity=".55" stroke-width="2">
+      <path d="M170 270V205a30 30 0 0 1 60 0v65"/>
+      <path d="M290 270V205a30 30 0 0 1 60 0v65"/>
+      <path d="M410 270V205a30 30 0 0 1 60 0v65"/>
+      <path d="M530 270V205a30 30 0 0 1 60 0v65"/>
+      <path d="M650 270V205a30 30 0 0 1 60 0v65"/>
+      <path d="M770 270V205a30 30 0 0 1 60 0v65"/>
+    </g>
+
+    <!-- cornice -->
+    <rect x="100" y="270" width="800" height="18" fill="#C08A2E" opacity=".85"/>
+
+    <!-- ground arcade -->
+    <rect x="120" y="288" width="760" height="292" fill="#12263A" stroke="#C08A2E" stroke-opacity=".35"/>
+    <g fill="none" stroke="#C08A2E" stroke-width="3">
+      <path d="M175 580V400a55 55 0 0 1 110 0v180"/>
+      <path d="M330 580V400a55 55 0 0 1 110 0v180"/>
+      <path d="M485 580V400a55 55 0 0 1 110 0v180"/>
+      <path d="M640 580V400a55 55 0 0 1 110 0v180"/>
+      <path d="M795 580V400a30 30 0 0 1 60 0v180" stroke-opacity=".5"/>
+    </g>
+    <g fill="#0B1826" opacity=".55">
+      <path d="M175 580V400a55 55 0 0 1 110 0v180Z"/>
+      <path d="M330 580V400a55 55 0 0 1 110 0v180Z"/>
+      <path d="M485 580V400a55 55 0 0 1 110 0v180Z"/>
+      <path d="M640 580V400a55 55 0 0 1 110 0v180Z"/>
+    </g>
+
+    <!-- plot line -->
+    <rect x="60" y="580" width="880" height="8" rx="4" fill="#C08A2E"/>
+    <rect x="0" y="588" width="1000" height="162" fill="#0B1826"/>
+    <g stroke="#F7F4EE" stroke-opacity=".07" stroke-width="1">
+      <path d="M0 640h1000M0 690h1000M0 740h1000"/>
+    </g>
+  </g>
+</svg>
